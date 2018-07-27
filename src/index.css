@@ -1,5 +1,17 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+/* CSS files add styling rules to your content */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin:0;
+  height: 100%;
+  background-color: #ff4949;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1vw;
+  color: #191A36;
 }

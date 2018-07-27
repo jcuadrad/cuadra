@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.1vw 1vw;
+  border-bottom: 2px solid #171e33;
+  background-color: white;
+  padding-bottom: 3px;
+}
+
+#logo {
+  border: 2px solid #171e33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -3px 3px 0px 1px rgba(0,0,0,1);
+}
+
+#logo img {
+  width: 22px;
+  padding: 4px;
+}
