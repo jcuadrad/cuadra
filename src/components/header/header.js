@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
+
 import './header.css';
+import logo from '../../assets/JC.png'
 
 class Header extends Component {
   render() {
     return (
       <header>
         <div id="logo">
-          <img src="https://image.ibb.co/dtMSyx/Personal_Logo_02.png"/>
+          <img src={logo} />
         </div>
         <h1>
           . . .

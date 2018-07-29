@@ -8,15 +8,7 @@ header {
   padding-bottom: 3px;
 }
 
-#logo {
-  border: 2px solid #171e33;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: -3px 3px 0px 1px rgba(0,0,0,1);
-}
-
 #logo img {
-  width: 22px;
-  padding: 4px;
+  width: 1.8vw;
+  margin-top: 0.2vw;
 }
