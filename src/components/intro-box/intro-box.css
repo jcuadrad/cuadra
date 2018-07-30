@@ -9,6 +9,7 @@
   align-items: center;
   box-shadow: -9px 11px 0px 1px rgba(0,0,0,1);
   background-color: white;
+  overflow: hidden;
 }
 
 .description {

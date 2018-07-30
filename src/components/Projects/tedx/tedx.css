@@ -1,0 +1,76 @@
+.tedx {
+    flex-direction: column;
+    padding: 1vw 1vw;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.tedx h1 {
+    font-size: 1.3vw;
+    margin: 0;
+    font-weight: 400;
+}
+
+.tedx img {
+    width: 100%;
+    margin: 1vw 0px;
+}
+
+.circle {
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    margin: 1vw 0.4vw;
+    background-color: #56E3C4;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    z-index: 0;
+    border: 2px solid #171e33;
+    box-shadow: -6px 5px 0px 1px rgba(0,0,0,1);
+}
+
+.detail-teal {
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1vw;
+    z-index: 1;
+}
+
+.detail-teal h1 {
+    font-size: 1vw;
+    margin: 0;
+    font-weight: 400;
+    color: white;
+}
+
+.big {
+    width: 7vw;
+    height: 7vw;
+    background-color: transparent;
+    overflow: hidden;
+    right: 0.5vw;
+}
+
+.big img {
+    width: 103%;
+    height: 103%;
+    top: -2px;
+    left: -1px;
+    display: unset;
+    margin: 0;
+    /* border: 2px solid #171e33; */
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+    /* overflow: hidden; */
+}

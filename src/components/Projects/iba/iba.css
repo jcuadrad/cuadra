@@ -1,0 +1,51 @@
+.iba {
+    flex-direction: column;
+    padding: 1vw;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: end;
+}
+
+.iba h1 {
+    font-size: 1.3vw;
+    margin: 0;
+    font-weight: 400;
+    width: 50%;
+}
+
+.iba img {
+    width: 100%;
+}
+
+.decor {
+    position: absolute;
+    width: 6vw !important;
+    top: 0;
+    left: 0;
+}
+
+.detail-yellow {
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1vw;
+    z-index: 1;
+    background-color: #fed137;
+}
+
+.detail-yellow h1 {
+    font-size: 1vw;
+    margin: 0;
+    font-weight: 400;
+    color: white;
+    width: 100%;
+    text-align: left;
+}

@@ -4,7 +4,7 @@ import { tween, easing } from 'popmotion';
 
 import './intro-box.css';
 
-const Description = posed.div({
+export const Description = posed.div({
   idle: { 
     height: 0,
     opacity: 0,
@@ -14,6 +14,7 @@ const Description = posed.div({
     }
    },
   hovered: { 
+    delay: 100,
     height: "100%",
     opacity: 1,
     transition: props => tween({ ...props, duration: 200, ease: easing.linear })
