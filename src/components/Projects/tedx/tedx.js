@@ -26,30 +26,7 @@ const GIFCircle = posed.div({
   }
 })
 
-const Circle = posed.div({
-  idle: { 
-    height: "4vw",
-    width: "4vw",
-    margin: "1vw 0.4vw",
-    boxShadow: "-6px 5px 0px 1px rgba(0,0,0,1)",
-    border: "2px solid black",
-    borderRadius: "50%",
-    transition: {
-      default: props => tween({ ...props, duration: 200, ease: easing.linear })
-    }
-   },
-  hovered: {
-    height: "15vw",
-    width: "15vw",
-    margin: "0vw 0vw",
-    boxShadow: "0px 0px 0px 0px rgba(0,0,0,1)",
-    border: "0px solid black",
-    borderRadius: "0%",
-    transition: props => tween({ ...props, duration: 200, ease: easing.linear })
-  }
-})
-
-const CircleTest = posed.div({
+export const GrowingShape = posed.div({
   idle: { 
     scale: 1,
     borderWidth: "2px",
@@ -97,7 +74,7 @@ class TEDx extends Component {
         <img src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2FTEDxMain.jpg?1532931639898"/>
         <p>
         </p>
-        <CircleTest className="circle" pose={this.state.hovered ? "hovered" : "idle"}></CircleTest>
+        <GrowingShape className="circle" pose={this.state.hovered ? "hovered" : "idle"}></GrowingShape>
     </div>
     );
   }
