@@ -1,0 +1,14 @@
+.sw {
+    left: 4vw;
+    right: auto;
+    background-color: #ff4947;
+}
+
+.left {
+    right: auto;
+    left: 1.1vw;
+}
+
+.right h1 {
+    text-align: end;
+}

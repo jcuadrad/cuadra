@@ -3,7 +3,7 @@ import posed from 'react-pose';
 import { tween, easing } from 'popmotion';
 import { Description } from '../../intro-box/intro-box';
 
-import './tedx.css';
+import './swm.css';
 
 const GIFCircle = posed.div({
   idle: { 
@@ -41,7 +41,7 @@ export const GrowingShape = posed.div({
   }
 })
 
-class TEDx extends Component {
+class SWM extends Component {
 
   constructor(props) {
     super(props);
@@ -60,24 +60,24 @@ class TEDx extends Component {
   render() {
     return (
     <div className="shadow-box tedx" onMouseEnter={() => this.showDescription()} onMouseLeave={() => {this.setState({ hovered: false })}}>
-        <Description className="detail-transparent" pose={this.state.hovered ? "hovered" : "idle"}>
-          <h1>A free community event based on the TED format. <br/> 
-              I am the curator & director of the event that hosts <br/> 1500 attendees <br/> a year.
+        <Description className="detail-transparent right" pose={this.state.hovered ? "hovered" : "idle"}>
+          <h1>
+            Orginized the first Startup Weekend event in Managua, with the help of the most wonderful team.
           </h1>
-          <GIFCircle className="circle big">
-            <img src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2FTEDx.gif?1532931782003" />
+          <GIFCircle className="circle big left">
+            <img src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2Fsw.gif?1533110983713" />
           </GIFCircle>
         </Description>
         <h1>
-          TEDxManagua
+          Startup Weekend Managua
         </h1>
-        <img src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2FTEDxMain.jpg?1532931639898"/>
+        <img src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2Fsw2.jpg?1533109701792"/>
         <p>
         </p>
-        <GrowingShape className="circle" pose={this.state.hovered ? "hovered" : "idle"}></GrowingShape>
+        <GrowingShape className="circle sw" pose={this.state.hovered ? "hovered" : "idle"}></GrowingShape>
     </div>
     );
   }
 }
 
-export default TEDx;
+export default SWM;

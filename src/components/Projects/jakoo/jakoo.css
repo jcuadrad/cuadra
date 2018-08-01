@@ -1,0 +1,60 @@
+.jakoo {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 1vw;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    text-align: end;
+}
+
+.jakoo h1 {
+    font-size: 1.3vw;
+    margin: 0;
+    font-weight: 400;
+}
+
+.jakoo .detail-transparent h1 {
+    font-size: 1vw;
+    margin: 0;
+    font-weight: 400;
+    color: white;
+}
+
+.jakoo img {
+    width: 100%;
+}
+
+#bird {
+    width: 10vw;
+    left: 1vw;
+    top: 2.6vw;
+    position: absolute;
+}
+
+#tab {
+    position: absolute;
+    width: 3.8vw;
+    height: 1.59vw;
+    margin: 1vw 0.4vw;
+    background-color: #5855ff;
+    bottom: 1vw;
+    right: 1.2vw;
+    z-index: 0;
+    border: 2px solid #171e33;
+    box-shadow: -3px 3px 0px 0px rgba(0,0,0,1);
+}
+
+#jakoo-gif {
+    width: 6.5vw;
+    border-radius: 50%;
+    border: 2px solid #171e33;
+    box-shadow: -6px 5px 0px 1px;
+    margin-left: 1vw;
+}
+
+.centered-row {
+    flex-direction: row-reverse;
+    align-items: center;
+}

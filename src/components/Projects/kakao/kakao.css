@@ -1,36 +1,36 @@
-.tmg {
-    flex-direction: column;
+.kakao {
+    justify-content: space-between;
+    flex-direction: column-reverse;
     padding: 1vw 1vw;
-    justify-content: flex-start;
     align-items: flex-start;
 }
 
-.tmg h1 {
+.kakao h1 {
     font-size: 1.3vw;
     margin: 0;
     font-weight: 400;
 }
 
-.tmg img {
+.kakao img {
     width: 100%;
-    margin: 2.3vw 0vw 0vw 0vw;
+    margin: 0;
+    height: 7.1vw;
 }
 
-.tmg .detail-tmg h1 {
+.kakao .detail-yellow h1 {
     font-size: 1vw;
-    text-align: center;
 }
 
-.letter {
-    font-size: 6vw !important;
+.letter-yellow {
+    color: #fed137;
+    bottom: 2vw;
+    font-size: 6.5vw !important;
     font-weight: 900 !important;
     -webkit-text-stroke: 2px black;
-    color: #ffffff;
     text-shadow: -7px 4px 0 #000, /* Simulated effect for Firefox and Opera and nice enhancement for WebKit */ -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     margin: 0;
     position: absolute;
     right: 1vw;
-    bottom: 6vw;
 }
 
 #ipad-gif {
