@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import posed from 'react-pose';
+import { tween, easing } from 'popmotion';
 
 import './header.css';
 import logo from '../../assets/JC.png'
@@ -8,7 +10,7 @@ class Header extends Component {
     return (
       <header>
         <div id="logo">
-          <img src={logo} />
+          <img src={logo} alt="logo" />
         </div>
         <h1>
           . . .

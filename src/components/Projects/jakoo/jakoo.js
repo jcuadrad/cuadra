@@ -54,7 +54,7 @@ class Jakoo extends Component {
         <h1>
           Jako-o Kid Store
         </h1>
-        <img id="bird" src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2Fjakoologo3.png?1533105442418"/>
+        <img id="bird" src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2Fjakoologo3.png?1533105442418" alt="bird"/>
         <GrowingTab id="tab" pose={this.state.hovered ? "hovered" : "idle"}></GrowingTab>
     </div>
     );

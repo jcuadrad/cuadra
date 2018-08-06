@@ -1,23 +1,7 @@
 import React, { Component } from 'react';
-import posed from 'react-pose';
-import { tween, easing } from 'popmotion';
 import { Description } from '../../intro-box/intro-box'
 
 import './tmg.css';
-
-const IPad = posed.img({
-  idle: { 
-    scale: 0,
-    transition: {
-      opacity: props => tween({ ...props, duration: 100, ease: easing.linear }),
-      default: props => tween({ ...props, duration: 30, ease: easing.linear })
-    }
-   },
-  hovered: {
-    scale: 1,
-    transition: props => tween({ ...props, duration: 30, ease: easing.linear })
-  }
-})
 
 class TMG extends Component {
 
@@ -57,7 +41,7 @@ class TMG extends Component {
         <img 
         src={this.state.hovered ? "https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2FTMGScreenVideo.gif?1533021812669" : 
         "https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2FtmgCover.png?1533069041588"}
-        style={this.state.hovered ? topView : normalView}/>
+        style={this.state.hovered ? topView : normalView} alt="ipad" />
         <p>
         </p>
         <h1 className="letter">

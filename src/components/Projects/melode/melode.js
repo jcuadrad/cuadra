@@ -45,7 +45,7 @@ class Melode extends Component {
           <div className="crop">
             <img id="melode-gif" src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2FMelode.gif?1532983407806" alt="melode-gif"/>
           </div>
-          <h1>A "tinder" for Music lyrics. <br/> <br/> This was my first full-stack app and tt was built in two weeks.</h1>
+          <h1>A "tinder" for Music lyrics. <br/> <br/> This was my first full-stack app and it was built in two weeks.</h1>
         </Description>
         <h1>
           Melode
@@ -53,7 +53,7 @@ class Melode extends Component {
         <GrowingLetter id="play" pose={this.state.hovered ? "hovered" : "idle"}>
           ‣
         </GrowingLetter>
-        <img src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2FMelode.png?1532637830308"/>
+        <img src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2FMelode.png?1532637830308" alt="melode-main" />
       </div>
     );
   }

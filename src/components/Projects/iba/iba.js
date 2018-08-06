@@ -29,8 +29,8 @@ class IbaVR extends Component {
         <h1>
           Iba Virtual Bakery Tours
         </h1>
-        <img src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2FIba.jpg?1533091628374"/>
-        <img className="decor" src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2Fvr.png?1532634152006" />
+        <img src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2FIba.jpg?1533091628374" alt="iba-main" />
+        <img className="decor" src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2Fvr.png?1532634152006" alt="decor" />
       </div>
     );
   }

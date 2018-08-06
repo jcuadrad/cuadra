@@ -65,13 +65,13 @@ class SWM extends Component {
             Orginized the first Startup Weekend event in Managua, with the help of the most wonderful team.
           </h1>
           <GIFCircle className="circle big left">
-            <img src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2Fsw.gif?1533110983713" />
+            <img src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2Fsw.gif?1533110983713" alt="swm-gif"/>
           </GIFCircle>
         </Description>
         <h1>
           Startup Weekend Managua
         </h1>
-        <img src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2Fsw2.jpg?1533109701792"/>
+        <img src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2Fsw2.jpg?1533109701792" alt="swm-main" />
         <p>
         </p>
         <GrowingShape className="circle sw" pose={this.state.hovered ? "hovered" : "idle"}></GrowingShape>

@@ -27,7 +27,7 @@ class Hub extends Component {
           <img id="hub-logo" src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2FHubLogo.gif?1532993469764" alt="hub-logo"/>
           <h1 className="hub-desc">Concept and market research for my dream project.</h1>
         </Description>
-        <img src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2Fhubkid.jpg?1532994828410"/>
+        <img src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2Fhubkid.jpg?1532994828410" alt="hub-main"/>
         <h1>
           The Hub
         </h1>

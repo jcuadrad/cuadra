@@ -65,13 +65,13 @@ class TEDx extends Component {
               I am the curator & director of the event that hosts <br/> 1500 attendees <br/> a year.
           </h1>
           <GIFCircle className="circle big">
-            <img src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2FTEDx.gif?1532931782003" />
+            <img src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2FTEDx.gif?1532931782003" alt="tedx-gif"/>
           </GIFCircle>
         </Description>
         <h1>
           TEDxManagua
         </h1>
-        <img src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2FTEDxMain.jpg?1532931639898"/>
+        <img src="https://cdn.glitch.com/7103bbf0-76c6-4ae7-9ec3-4d7ce5786163%2FTEDxMain.jpg?1532931639898" alt="tedx-main" />
         <p>
         </p>
         <GrowingShape className="circle" pose={this.state.hovered ? "hovered" : "idle"}></GrowingShape>
